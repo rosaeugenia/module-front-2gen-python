@@ -1,0 +1,22 @@
+body{
+  background-color: cornsilk;
+}
+header{
+  background-color:chartreuse;
+  height: 80px;
+  
+  
+}
+nav{
+  background-color: rgb(45, 88, 2);
+  height: 40px;
+ border-radius: 10px;
+
+}
+main{
+  background-color: cyan;
+}
+aside{
+  background-color: coral;
+display: flex;
+}
