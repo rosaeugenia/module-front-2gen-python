@@ -1,22 +1,62 @@
 body{
   background-color: cornsilk;
+  margin: 0px;
+  
+  
+
 }
 header{
   background-color:chartreuse;
-  height: 80px;
-  
-  
+  height:80px;
+  align-content: center;
+  margin-top: 0px;
+  padding-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav{
-  background-color: rgb(45, 88, 2);
-  height: 40px;
+background-color: rgb(74, 145, 4);
+height: 50px;
+  width: 90%;
  border-radius: 10px;
-
-}
-main{
-  background-color: cyan;
+ margin-left: 65px;
 }
 aside{
-  background-color: coral;
-display: flex;
+background-color: coral;
+width: 20%;
+height:500px;
+border-radius: 10px;
+display: inline-block;
+margin-left: 35px;
+margin-top: 40px;
+margin-bottom: 40px;
+vertical-align: top;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+main{
+  background-color: crimson;
+  width: 50%;
+  height: 500px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article{
+  background-color: darkgrey;
+  width: 80%;
+  height: 100px;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 10%;
+ 
+}
+footer{
+  background-color: darkmagenta;
+  height: 100px;
+  border-radius: 10px;
 }
